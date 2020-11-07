@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 .main-wrapper {
@@ -31,7 +32,7 @@
 }
 
 .main-wrapper .header-container .title {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 800;
   margin-bottom: 30px;
 }
@@ -60,12 +61,24 @@
 
 .main-wrapper .tasks-container .tasks-wrapper .tasks-title {
   color: grey;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .main-wrapper .tasks-container .tasks-wrapper .tasks-list .task {
+  padding: 15px;
+  margin-bottom: 10px;
   background-color: #F0F0F0;
-  color: #000;
+  font-size: 1.5rem;
+  color: #515151;
+}
+
+.main-wrapper .tasks-container .tasks-wrapper .tasks-list .task label {
+  margin-left: 10px;
+}
+
+.main-wrapper .tasks-container .tasks-wrapper .tasks-list .task input[type=checkbox]:checked + label {
+  text-decoration: line-through;
 }
 /*# sourceMappingURL=styles.css.map */
