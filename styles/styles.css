@@ -43,11 +43,28 @@
   background-color: transparent;
   color: white;
   margin: 5px;
+  outline: 0 !important;
 }
 
 .main-wrapper .header-container .form-container input[type=text] {
   width: 350px;
   padding: 5px;
+}
+
+.main-wrapper .header-container .form-container input[type=text]::-webkit-input-placeholder {
+  color: rgba(238, 235, 235, 0.692);
+}
+
+.main-wrapper .header-container .form-container input[type=text]:-ms-input-placeholder {
+  color: rgba(238, 235, 235, 0.692);
+}
+
+.main-wrapper .header-container .form-container input[type=text]::-ms-input-placeholder {
+  color: rgba(238, 235, 235, 0.692);
+}
+
+.main-wrapper .header-container .form-container input[type=text]::placeholder {
+  color: rgba(238, 235, 235, 0.692);
 }
 
 .main-wrapper .header-container .form-container input[type=button] {
