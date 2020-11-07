@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App de Tareas</title>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
 <body>
-    
+    <main class="main-wrapper">
+        <header class="header-container">
+            <h1 class="title">¿Que deberia hacer hoy?</h1>
+            <div class="form-container">
+                <input type="text" name="task" id="task" placeholder="Escribi una tarea...">
+                <input type="button" value="Agregar">
+            </div>
+        </header>
+        <div class="tasks-container">
+            <div class="tasks-wrapper">
+                <h2 class="tasks-title">Tareas pendientes:</h2>
+                <ul class="tasks-list">
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
